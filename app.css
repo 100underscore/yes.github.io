@@ -1,0 +1,53 @@
+body {
+    background-color: #E9D8FD; /* sets a light purple background color */
+    font-family: 'Open Sans', sans-serif; /* sets the font to 'Open Sans' for the body text */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif; /* sets the font for headings to 'Montserrat' */
+    text-align: center; /* centers the title */
+    font-weight: bold; /* makes the title bold */
+}
+
+/* Add styles for the buttons */
+input[type="submit"] {
+    background-color: #4CAF50; /* sets a green background color for the buttons */
+    color: white; /* sets the text color to white */
+    padding: 12px 20px; /* sets the padding for the buttons */
+    border: none; /* removes the border around the buttons */
+    border-radius: 4px; /* adds rounded corners to the buttons */
+    cursor: pointer; /* sets the cursor to a pointer when hovering over the buttons */
+    font-size: 16px; /* increases the font size for the buttons */
+    transition: background-color 0.3s ease; /* adds a smooth transition to the background color change on hover */
+}
+
+/* Add hover effect for the buttons */
+input[type="submit"]:hover {
+    background-color: #3e8e41; /* sets a darker green background color for the buttons on hover */
+
+}
+
+form {
+    width: 80%; /* sets the width of the form to 80% of the container */
+    max-width: 600px; /* sets a maximum width of 600px for the form */
+    margin: 0 auto; /* centers the form horizontally */
+    padding: 20px; /* adds padding around the form */
+    background-color: white; /* sets a white background color for the form */
+    border-radius: 10px; /* adds rounded corners to the form */
+    box-shadow: 0px 0px 20px #ddd; /* adds a subtle shadow to the form */
+}
+
+/* Add styles for the form fields */
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="time"] {
+    width: 100%; /* sets the width of the form fields to 100% of the container */
+    padding: 12px; /* adds padding to the form fields */
+    margin: 8px 0; /* adds margin to the form fields */
+    box-sizing: border-box; /* makes sure that the padding and border are included in the total width of the form fields */
+    border: 1px solid #ccc; /* adds a light gray border around the form fields */
+    border-radius: 4px; /* adds rounded corners to the form fields */
+}
+
+    /* Add focus effect for the form fields */
+    input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="date"]:focus, input[type="time"]:focus {
+        border: 1px solid #555; /* changes the border color to dark gray when the form field is in focus */
+    }
